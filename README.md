@@ -1,4 +1,5 @@
 # gcp-devops
-#### This is a repo for new GCP DevOps project.
-##### Development is in progress.
-##### Working
+
+#### This is a simple flask application
+###### This shall be deployed in GKE cluster
+
