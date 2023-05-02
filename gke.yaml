@@ -18,7 +18,7 @@ spec:
         app: pyapp
     spec:
       containers:
-      - image: gcr.io/project-gcp-384311/gcpdevops1
+      - image: gcr.io/project-gcp-384311/gcpdevops4
         name: gcpdevops1
         resources: {}
 status: {}
