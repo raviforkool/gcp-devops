@@ -22,3 +22,20 @@ spec:
         name: gcpdevops1
         resources: {}
 status: {}
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: pyapp
+  name: pyapp-svc
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: pyapp
+  type: LoadBalancer
